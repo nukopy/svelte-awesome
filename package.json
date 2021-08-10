@@ -13,6 +13,8 @@
   "license": "MIT",
   "scripts": {
     "build": "rollup -c",
+    "publish": "sh build/publish.sh",
+    "clean": "sh build/clean.sh",
     "icons": "node build/generate-icons",
     "start": "serve example/dist",
     "example:watch": "rollup -c example/rollup.config.js -w",
