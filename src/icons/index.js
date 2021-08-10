@@ -784,3 +784,6 @@ export { default as snowflakeO } from './snowflake-o';
 export { default as superpowers } from './superpowers';
 export { default as wpexplorer } from './wpexplorer';
 export { default as meetup } from './meetup';
+
+// add by nukopy
+export { default as notion } from './notion';
