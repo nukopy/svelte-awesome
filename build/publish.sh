@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 
 npm run build
-cp -r ./src/*/ .
+
+# copy source to root dir
+cp -r ./src/** .
+rm index.js
